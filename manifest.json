@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Ad Blocker",
+    "version": "1.0.0",
+    "description": "A basic extension to block ads using declarativeNetRequest.",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}
